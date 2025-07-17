@@ -29,7 +29,29 @@ This project showcases a complete data engineering pipeline built around real-wo
 
 ## Project Structure
 
-<pre> weather-data-pipeline/ ├── data/ │ ├── raw/ # Raw CSV input │ └── processed/ # Cleaned & transformed Parquet files │ ├── spark/ │ ├── extract.py # Ingest and clean raw data │ ├── transform.py # Transform and enrich data using PySpark │ ├── load.py # (Optional) Load into a SQL database │ └── main.py # Run pipeline end-to-end │ ├── analysis/ │ └── analysis.ipynb # SQL-based insights and visualizations │ ├── postgre/ │ ├── schema.sql # PostgreSQL table definition │ └── analysis.sql # Final SQL queries for reporting │ ├── README.md # Project documentation └── requirements.txt # Python dependencies </pre>
+```
+weather-data-pipeline/
+├── data/
+│   ├── raw/                  # Raw CSV input
+│   └── processed/            # Cleaned & transformed Parquet files
+│
+├── spark/
+│   ├── extract.py            # Ingest and clean raw data
+│   ├── transform.py          # Transform and enrich data using PySpark
+│   ├── load.py               # (Optional) Load into a SQL database
+│   └── main.py               # Run pipeline end-to-end
+│
+├── analysis/
+│   └── analysis.ipynb        # SQL-based insights and visualizations
+│
+├── postgre/
+│   ├── schema.sql            # PostgreSQL table definition
+│   └── analysis.sql          # Final SQL queries for reporting
+│
+├── README.md                 # Project documentation
+└── requirements.txt          # Python dependencies
+```
+
 ---
 
 ## Dataset
