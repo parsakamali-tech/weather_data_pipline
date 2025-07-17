@@ -36,20 +36,20 @@ weather-data-pipeline/
 │   └── processed/ # Cleaned & transformed Parquet files
 │
 ├──spark/
-|   ├── extract.py # Ingest and clean raw data
-|   ├── transform.py # Transform and enrich data using PySpark
-|   ├── load.py # (Optional) Load into a SQL database
-|   └── main.py # Run pipeline end-to-end
+│   ├── extract.py # Ingest and clean raw data
+│   ├── transform.py # Transform and enrich data using PySpark
+│   ├── load.py # (Optional) Load into a SQL database
+│   └── main.py # Run pipeline end-to-end
 │
 ├── analysis/
 │   └── analysis.ipynb
 │
 ├── postgre/
-|   ├── schema.sql # PostgreSQL table definition
-|   └── analysis.sql
-|
+│   ├── schema.sql # PostgreSQL table definition
+│   └── analysis.sql
+│
 ├── README.md
-|
+│
 └── requirements.txt
 
 ---
