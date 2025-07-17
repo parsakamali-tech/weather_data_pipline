@@ -1,10 +1,10 @@
-# 🌦️ Weather Data Engineering Project with PySpark
+# Weather Data Engineering Project with PySpark
 
 This project showcases a complete data engineering pipeline built around real-world weather data. The core focus of this project is on **PySpark**, which I recently learned and aimed to apply in a practical, production-style setup. The pipeline covers data ingestion, transformation, storage, and analytical querying — all aligned with common industry practices.
 
 ---
 
-## 🚀 Project Goals
+## Project Goals
 
 - Build a modular and scalable ETL pipeline using **PySpark**
 - Apply data cleaning and transformation techniques on a real dataset
@@ -14,7 +14,7 @@ This project showcases a complete data engineering pipeline built around real-wo
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 | Tool / Tech       | Purpose                                      |
 |-------------------|----------------------------------------------|
@@ -27,7 +27,7 @@ This project showcases a complete data engineering pipeline built around real-wo
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 weather-data-pipeline/
 │
@@ -52,7 +52,7 @@ weather-data-pipeline/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Kaggle - Weather History](https://www.kaggle.com/datasets/muthuj7/weather-dataset)
 - **Size**: ~96,000 records
@@ -60,7 +60,7 @@ weather-data-pipeline/
 
 ---
 
-## ⚙️ ETL Pipeline Overview
+## ETL Pipeline Overview
 
 ### 1. Extract
 
@@ -83,7 +83,7 @@ weather-data-pipeline/
 
 ---
 
-## 📈 SQL-Based Analysis
+## SQL-Based Analysis
 
 A series of SQL queries were used to extract insights, including:
 
@@ -98,7 +98,7 @@ A series of SQL queries were used to extract insights, including:
 
 ---
 
-## 💡 What Makes This Project Stand Out?
+## What Makes This Project Stand Out?
 
 - Practical use of **PySpark** for full data processing
 - Clean, modular Python scripting with proper logging
@@ -108,16 +108,7 @@ A series of SQL queries were used to extract insights, including:
 
 ---
 
-## 📌 Next Steps
-
-- Integrate **Apache Airflow** for orchestration
-- Containerize pipeline with **Docker** (optional)
-- Add data quality checks / unit tests
-- Visualize results with a dashboard (e.g., Streamlit)
-
----
-
-## 👤 Author
+## Author
 
 **Parsa Kamali Shahry**
 Aspiring Data Engineer
