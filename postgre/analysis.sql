@@ -18,6 +18,7 @@ SELECT
 	"Year",
 	COUNT(*) AS snow_days,
 FROM weather_data
+WHERE "Precip Type" = "snow"
 GROUP BY "Year"
 ORDER BY "Year";
 --Maximum and minimum air pressure by month
